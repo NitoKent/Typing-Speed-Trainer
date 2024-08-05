@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: max(400);
     position: relative;
     margin: 0;
 
@@ -10,6 +11,7 @@
         align-self: start;
         gap: 10px;
         padding: 20px;
+      
      
     }
 
@@ -40,8 +42,9 @@ input {
     padding: 10px;
     font-size: 36px;
     background: none;
+    background-color: white;
     color: white;
-    border: none;
+    border: 1px solid white;
     outline: none;
     width: max-content;
     position: absolute;
@@ -55,7 +58,7 @@ input {
     width: max-content;
     margin-top: 10px;
     font-size: 24px;
-    color: rgb(228, 223, 83);
+    color: rgb(255, 247, 29);
 }
 
 .result-screen {

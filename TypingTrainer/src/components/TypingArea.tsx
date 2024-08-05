@@ -43,7 +43,7 @@ export function TypingArea({ onRestart }: TypingAreaProps) {
 
     const getColor = (char: string, index: number): string => {
         if (index >= input.length) return 'gray';
-        return char === input[index] ? 'green' : 'red';
+        return char === input[index] ? 'rgba(85, 217, 113, 0.657)' : 'rgb(236, 69, 69)';
     };
 
     const renderedText = useMemo(() => text.split('').map((char, index) => (

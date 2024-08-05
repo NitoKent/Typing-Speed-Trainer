@@ -1,5 +1,6 @@
 import { useSelector } from 'react-redux';
 import { RootState } from '../store';
+import { LightBulbIcon } from '@heroicons/react/24/solid';
 
 interface ResultScreenProps {
     onRestart: () => void;
@@ -14,7 +15,10 @@ export function ResultScreen({ onRestart }: ResultScreenProps) {
 
     return (
         <div className="result-screen">
+            <div className='result-header'>
             <h2>RESULTS</h2>
+            <p><LightBulbIcon /></p>
+            </div>
             <p>Words per minute: {wpm}</p>
             <p>Errors: {errors}</p>
             <button onClick={onRestart}>Restart</button>

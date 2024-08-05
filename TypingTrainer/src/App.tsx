@@ -56,7 +56,7 @@ export function App() {
       )}
       {timeLeft !== null && timeLeft > 0 && (
         <div className="timer">
-          {timeLeft} seconds left
+          {timeLeft} 
         </div>
       )}
       <footer className='footer'>created by Daniel Kirushin</footer>

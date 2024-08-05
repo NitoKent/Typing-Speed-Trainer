@@ -5,8 +5,7 @@
   }
   
   html {
-   margin: 0;
-  
+    margin: 0;
     font-family: sans-serif;
   }
   
@@ -18,10 +17,11 @@
  
 
     .app {
+     
       display: flex;
+      place-items: center;
       flex-direction: column;
       align-items: center;
-
       color: rgb(210, 200, 200);
       
       .footer {
