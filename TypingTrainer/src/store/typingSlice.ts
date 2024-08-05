@@ -1,4 +1,4 @@
-// src/store/typingSlice.ts
+
 import { createSlice, PayloadAction } from '@reduxjs/toolkit';
 
 export interface TypingState {
@@ -20,7 +20,7 @@ const initialState: TypingState = {
   sentences: [
     "This is a sample text for typing.",
     "Another example sentence for practice.",
-    "Typing practice helps improve speed.",
+    "Typing practice helps improve speed. This hard work and perfect experience.   ",
   ],
   currentSentenceIndex: 0,
 };

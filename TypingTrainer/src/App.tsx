@@ -59,7 +59,7 @@ export function App() {
           {timeLeft} seconds left
         </div>
       )}
-      <footer className='footer'>create by Daniel Kirushin</footer>
+      <footer className='footer'>created by Daniel Kirushin</footer>
     </div>
   );
 }

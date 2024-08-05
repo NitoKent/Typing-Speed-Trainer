@@ -5,7 +5,7 @@
   }
   
   html {
- margin: 0;
+   margin: 0;
   
     font-family: sans-serif;
   }
@@ -25,6 +25,7 @@
       color: rgb(210, 200, 200);
       
       .footer {
+        width: max-content;
         color: gray;
         position: absolute;
         bottom: 0px;
