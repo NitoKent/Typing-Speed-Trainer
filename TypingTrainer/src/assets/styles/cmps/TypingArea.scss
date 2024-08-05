@@ -7,8 +7,10 @@
 
     .controls {
         display: flex;
+        align-self: start;
         gap: 10px;
-        margin-bottom: 20px;
+        padding: 20px;
+     
     }
 
     .restart-button,
@@ -49,6 +51,7 @@ input {
 }
 
 .timer {
+    
     width: max-content;
     margin-top: 10px;
     font-size: 24px;

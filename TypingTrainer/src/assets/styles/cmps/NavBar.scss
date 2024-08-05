@@ -1,5 +1,9 @@
-header {   
-    h1 {
-      margin-bottom: 100px;      
+header { 
+    display: flex;
+    flex-direction: column;
+    align-self: start;  
+    padding: 20px;
+    h3 {
+      margin-bottom: 60px;      
     }
   }

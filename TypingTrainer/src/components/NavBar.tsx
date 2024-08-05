@@ -6,7 +6,7 @@ export function NavBar() {
       <p>
         <Battery50Icon />
       </p>
-      <h1>T.S.T</h1>
+      <h3>T.S.T</h3>
     </header>
   )
 }
